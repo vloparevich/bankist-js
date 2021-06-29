@@ -6,9 +6,16 @@
 
 // Data
 const account1 = {
-  owner: 'Jonas Schmedtmann',
+  owner: 'Joan Stathem',
   movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
   interestRate: 1.2, // %
+  pin: 0000,
+};
+
+const account1 = {
+  owner: 'Steven Branch',
+  movements: [2030, 3450, -400, 3000, -620, -530, 7440, 133],
+  interestRate: 1.5, // %
   pin: 1111,
 };
 
@@ -42,7 +49,7 @@ const account5 = {
   pin: 7777,
 };
 
-const accounts = [account1, account2, account3, account4, account5];
+const accounts = [accoun0, account1, account2, account3, account4, account5];
 
 // Elements
 const labelWelcome = document.querySelector('.welcome');
